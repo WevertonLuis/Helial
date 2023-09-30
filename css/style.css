@@ -10,9 +10,9 @@
 
 /* linkando font externa */
 @font-face {
-    font-family: "Azonix";
+    font-family: "Futurism";
     src:
-      url("/Fontes/Azonix.otf");
+      url("/Fontes/Futurism.otf");
   }
 
   @font-face {
@@ -28,7 +28,7 @@ body{
 }
 
 .titulo-principal{
-    font-family: "Azonix", serif;
+    font-family: "Futurism", serif;
 }
 
 .bg-gradiente, .footer, center {
