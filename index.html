@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>FourCore</title>
+    
+    <!-- link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- link de icones do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- link javaScript -->
+    <script src="index.js"></script>
+
+    <!-- link da font do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+
+    <section class="container-fluid bg-gradiente pb-4">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container py-4 text-light">
+
+                    <a class="navbar-brand text-light" href="#"><i class="bi bi-brilliance"></i> FourCore</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list text-light"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse justfy-content-center" id="navbarNav">
+                        <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#Fotos-Carrossel">Fotos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#Arma-robo">Arma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#Hardware-robo">Hardware</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#Videos-robo">Videos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Ver Mais</a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#Grupo">Grupo</a></li>
+                                <li><a class="dropdown-item " href="#Eventos">Eventos</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        <!-- FIM DA BARRA DE NAVEGAÇÃO -->
+
+        <!-- 1ª seção -->
+
+            <div class="">
+                <section class="container">
+                    <div class="row d-flex align-items-center pb-4">
+                        <div class="col-md-6 my-3 py-4">
+
+                            <h2 class="display-4 my-4 text-light titulo-principal">Helial Rustage</h2>
+                            <p class="mb-5 text-light"><strong>Nosso robô é um anjo que caiu na terra.</strong> Por isso escolhemos o nome Helial Rustage, rustage que traduzindo vira ferrugem, nosso robô com a queda ficou enferrujado mas ainda sim continua sendo um anjo e não vai desistir até voltar para o paraiso. </p>
+                        </div>
+                    
+                        <div class=" col-md-6 my-4 ">
+                            <img src="./imagens/HeliaRustage.jpg" class="img-fluid rounded-3 shadow" alt="...">
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        
+        
+        <!-- FIM DA PRIMEIRA SEÇÃO -->
+
+        <!-- SEÇÃ DE CARROSSEL -->
+
+        <section class="container ">
+        <div id="carouselExampleIndicators" class="carousel slide ">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner rounded-3 shadow ">
+            <div class="carousel-item active">
+              <img src="./imagens/Helial1.jpg" class="d-block w-100" alt="Foto do robo do lado esquerdo mostrando a asa">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/Helial2.jpg" class="d-block w-100" alt="Foto do robo do lado direito mostrando a asa">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagens/Helial3.jpg" class="d-block w-100" alt="Foto do robo com a arma acionada">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagens/Helial4.jpg" class="d-block w-100" alt="Foto do Hardware do robo por dentro">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagens/Arma.jpg" class="d-block w-100" alt="Foto mais perto da arma acionada">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </section>
+        <!-- FIM DA SEÇÃO DE CARROSSEL -->
+
+        <!-- SEÇÃO DE APRESENTAÇÃO DA ARMA -->
+
+                <section class="container mt-5" id="Arma-robo ">
+                    
+                    <div class="row d-flex pb-4 titulo">
+
+                        <h2 class="display-4 my-1">Arma do Robô</h2>
+                    
+                    </div>
+
+                    <div class="row d-flex align-items-center pb-4">
+                        <div class="col-md-6 my-3">
+
+                            <img src="./imagens/Arma.jpg" class="img-fluid rounded-3" alt="Foto do robo com a arma acionada">
+                        
+                        </div>
+                    
+                        <div class="col-md-6 my-3 ">
+
+                            <h4>Informações da Arma</h4>
+
+                            <div class="accordion shadow p-3 mb-5 bg-body-tertiary rounded" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Estilo da Arma
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>A arma tem o formato que lembra uma flecha. </strong> Nós escolhemos esse formato por conta do tema do nosso robô.  Achamos que um anjo deve carregar consigo um arco e uma flecha, É uma arma que para manusear, o guerreiro deve ter destreza e paciência.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Materiais da Arma 
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>Para seguir com o estilo de flecha.</strong> O corpo da arma é feito inteiramente de madeira, com exceção da lamina, que é composta por duas navalhas e uma agulha na ponta. Assim não importa de qual direção o inimigo venha, nossa arma doi feita para cortar qualquer coisa.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Como Funciona
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>Assim como o arco e flecha é visto como uma arma simples.</strong> Nossa arma funciona de uma maneira bem simples, a felcha é presa em um motor que gira em 180°, fazendo com que ela assim que o sensor do robô é acionado, nossa arma seja acionada rapidamente. 
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!-- FIM DA SEÇÃO DE APRESENTAÇÃO DA ARMA -->
+
+        <!-- SEÇÃO DE APRESENTAÇÃO DO HARDWARE DO ROBO -->
+
+        <section class="container" id="Hardware-robo">
+                    
+          <div class="row d-flex pb-4 titulo">
+
+              <h2 class="display-4 my-1">Hardware ultilizado</h2>
+          
+          </div>
+
+          <div class="row d-flex align-items-center pb-4">
+              <div class="col-md-6 my-3">
+                  <img src="./imagens/bga.png" class="img-fluid rounded-3 shadow" alt="Foto das peças utilizadas no hardware do robo">
+              </div>
+
+              <div class="col-md-6 hardware shadow p-3 rounded-3">
+
+                <nav id="navbar-example2" class="navbar bg-body-tertiary mb-3 rounded-3">
+                  <a class="navbar-brand" href="#">Componentes utilizados</a>
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#scrollspyHeading1">Eletronicos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#scrollspyHeading2">Conexão</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ver mais</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#scrollspyHeading3">Estilo</a></li>
+                        <li><a class="dropdown-item" href="#scrollspyHeading4">Auxiliar</a></li>
+                        <li><a class="dropdown-item" href="#scrollspyHeading5">Conexão</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-3" tabindex="0">
+                  <h5 id="scrollspyHeading1">Componentes Eletrônicos</h5>
+                  <ul>
+                    <li>Arduino Mega2560 - 1 unidade</li>
+                    <li>Soquete de Pilha AA - 1 unidade</li>
+                    <li>Led de 3MM - 1 unidade</li>
+                    <li>Motor DC 3V - 6V Eixo Duplo - Com caixa de Redução (com roda) - 2 unidades</li>
+                    <li>Motor de 5V / 150RPM para as armas - 1 unidade</li>
+                    <li>Chave fim de curso - 4 unidades</li>
+                    <li>Chave alavanca de 2 terminais - 1 unidade</li>
+                    <li>Shield de motor - 1 unidade</li>
+                    <li>Shield de Bluetooth HC-06 - 1 unidade</li>
+                  </ul>
+
+                  <h5 id="scrollspyHeading2">Componentes de conexão</h5>
+                  <ul>
+                    <li>Protoboard de 400 pontos - 1 unidade</li>
+                    <li>Transistor BD 135 - 10 unidades</li>
+                    <li>Barra de pinos macho - 1 barra</li>
+                    <li>Resistor de carbono - 100 unidades</li>
+                    <li>Jumper MM - 20 unidades </li>
+                    <li>Jumper MF - 20 unidades </li>
+                    <li>Fita isolante</li>
+                  </ul>
+                  <h5 id="scrollspyHeading3">Para a estilização do robô</h5>
+                  <ul>
+                    <li>Placa de MDF - 2 Unidades</li>
+                    <li>Tintas: Laranja, Azul, Marrom e Preta</li>
+                    <li>Fita LED com iluminação RGB - 5 metros</li>
+                    <li>Papelão para fazer as Asas do robô</li>
+                    <li>Caneta preta para fazer o contorno das asas e o nome do robo.</li>
+                  </ul>
+                  <h5 id="scrollspyHeading4">Demais Componentes</h5>
+                  <ul>
+                    <li>Suporte para o balão - 1 unidade</li>
+                    <li>Roda-Boba - para locomoção.</li>
+                    <li>Palitos de churrasco para sustentação de componetes.</li>
+                  </ul>
+                  <h5 id="scrollspyHeading5">Conexão Bluetooth</h5>
+                  <p>Para que o robô funcione, foi desenvolvido um código que é passado para o arduino do robô. Esse código serve para que todos o componentes do robô funcionem corretamente em suas respectivas funções.</p>
+                  <p>Assim que esse código é passado para o nosso Arduino, já fica possivel de controlar o robô para a batalha. O professor nos forneceu o aplicativo para android, esse aplicativo é conectado via Bluetooth com o nosso módulo Bluetooth, nesse aplicativo vem o controle remoto para andar com o robô.</p>
+                </div>
+              </div>
+          </div>
+      </section> 
+
+        <!-- FIM DA SEÇÃO DE APRESENTAÇÃO DO HARDWARE DO ROBO -->
+
+        <!-- SEÇÃO DE VIDEOS DO ROBÔ -->
+
+
+        <section class="container" id="Videos-robo">
+          <div class="row d-flex pb-4">
+
+              <div class="row d-flex pb-4 titulo">
+
+                <h2 class="display-4 my-1">Veja nosso robô em pratica!</h2>
+            
+              </div>
+              
+              <div class="row d-flex">
+                <div class="row-col-6 my-3" id="videos">
+                  <div class="embed-responsive-16by9 ratio ratio-16x9">
+                    <iframe class="rounded-3 embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/SWseUo98mH0?si=Tlmm2-peGxsu9J56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                
+                <div class="row-col-6 my-3" id="videos">
+                    <div class="embed-responsive-16by9 ratio ratio-16x9">
+                      <iframe class="rounded-3 embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/47yJ2FvVkz8?si=bFc6o0YdBTsUdjzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+              </div>
+            
+            </div>
+        </section>
+        <!-- FIM DA SEÇÃO DE VIDEOS DO ROBÔ -->
+
+        <!-- SEÇÂO DE APRESENTAÇÂO DO GRUPO -->
+
+        <section class="container" id="Grupo">
+
+          <div class="row d-flex pb-4">
+
+            <h2 class="display-4 my-1">Grupo FourCore</h2>
+        
+        </div>
+
+
+          <div class="row d-flex pb-4 ms-1 my-5">
+                <div class="card-group">
+                  <div class="card me-2 rounded-3">
+                    <img src="./imagens/BeaFoto.jpg" class="card-img-top rounded-top-3" alt="Foto da Integrante do Grupo Beatriz">
+                    <div class="card-body">
+                      <h5 class="card-title">Beatriz Maria</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                  <div class="card me-2 rounded-3">
+                    <img src="./imagens/HeloFoto2.jpg" class="card-img-top rounded-top-3" alt="Foto da Integrante do Grupo Heloisa">
+                    <div class="card-body">
+                      <h5 class="card-title">Heloisa Vital</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                  <div class="card me-2 rounded-3">
+                    <img src="./imagens/Fototeste.jpg" class="card-img-top rounded-top-3" alt="Foto do Integrante do Grupo Weverton">
+                    <div class="card-body">
+                      <h5 class="card-title">Weverton Luis</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                  <div class="card me-2 rounded-3">
+                    <img src="./imagens/ArthurFoto.jpg" class="card-img-top rounded-top-3" alt="Foto do Integrante do Grupo Arthur">
+                    <div class="card-body">
+                      <h5 class="card-title">Arthur Siqueira</h5>
+                      <p class="card-text"> </p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+          </div>
+      </section>
+
+        <!-- FIM DA SEÇÂO DE APRESENTAÇÂO DO GRUPO -->
+
+        <!-- SEÇÂO DE APRESENTAÇÂO DA ROBOCUP E NEXT -->
+
+        <section class="container" id="Eventos">
+        <div class="row d-flex align-items-center pb-4">
+          <div class="col-md-6 my-3 py-4">
+
+              <h2 class="display-6 my-4 fw-bold"><i class="bi bi-chevron-double-right me-2"></i>NEXT</h2>
+              <p class="mb-5"> O NEXT é o Festival de Tecnologia e Inovação que reune em média 2.000 jovens talentos para uma feira de projetos feitos durante o ano na FIAP em seus respectivos cursos. Nesse festival esses jovens, apresentam suas melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. Nesse festival diversas empresas parceiras vão para a faculdade, para recrutar esses jovens talentos.</p>
+          </div>
+
+            <div class="col-md-6 my-3 py-4">
+
+                <h2 class="display-6 my-4 fw-bold"><i class="bi bi-cpu me-2 display-6"></i>Robô Cup</h2>
+                <p class="mb-5"> A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.</p>
+            </div>
+          </div>
+        </section>
+        <!-- FIM SEÇÂO DE APRESENTAÇÂO DA ROBOCUP E NEXT -->
+
+        <!-- SEÇÂO DE FORMULARIO -->
+
+          <div class="container">
+
+            <div class="row d-flex pb-4 titulo">
+
+              <h2 class="display-5 my-1">Envie abaixo sua sujestão de como podemos melhorar!</h2>
+
+              <div class="row my-5">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Sobre nome" aria-label="Last name">
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Envie sua sujestão!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          
+          </div>
+          </div>
+
+        <!-- FIM DA SEÇÂO DE FORMULARIO -->
+
+        <!-- SEÇÂO FOOTER  -->
+        
+        <section class="footer">
+          <footer class="footer-section">
+              <div class="footer">
+                  <div>
+                      <h3>Beatriz Maria dos Santo</h3>
+                      <h4>RM: 552233 </h4>
+                  </div>
+      
+                  <div>
+                      <h3>Heloisa Vital de Melo</h3>
+                      <h4>RM: 552323</h4>
+                  </div>
+      
+                  <div>
+                      <h3>Weverton Luis</h3>
+                      <h4>RM: 98730</h4>
+                  </div>
+  
+                  <div>
+                      <h3>Arthur Siqueira</h3>
+                      <h4>RM: 95155</h4>
+                  </div>
+              </div>
+
+              <center>
+                  &copy; Copyright Creative Networks - Helial Rustage
+              </center>
+          </footer>
+      </section>
+
+        <!-- FIM DA SEÇÂO FOOTER -->
+
+        <script str></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

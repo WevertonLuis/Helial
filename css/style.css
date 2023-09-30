@@ -1,0 +1,110 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      letter-spacing: .7px;
+      scroll-behavior: smooth;
+        box-sizing: border-box;
+        text-decoration: none;
+  }
+
+/* linkando font externa */
+@font-face {
+    font-family: "Azonix";
+    src:
+      url("/Fontes/Azonix.otf");
+  }
+
+  @font-face {
+    font-family: "Gotham";
+    src:
+      url("/Fontes/GothamBook.ttf");
+  }
+
+
+body{
+      line-height: 1.5;
+      font-family: "Gotham", sans-serif;
+}
+
+.titulo-principal{
+    font-family: "Azonix", serif;
+}
+
+.bg-gradiente, .footer, center {
+background-image: linear-gradient(110deg,
+
+    hsl(223deg 63% 9%) 0%,
+    hsl(226deg 63% 9%) 13%,
+    hsl(226deg 65% 9%) 26%,
+    hsl(228deg 65% 9%) 39%,
+    hsl(220deg 70% 9%) 52%,
+    hsl(230deg 70% 9%) 65%,
+    hsl(233deg 72% 9%) 77%,
+    hsl(235deg 72% 9%) 89%,
+    hsl(235deg 73% 9%) 100%);
+}
+
+/* Ativando o Scrollspy */
+.scrollspy-example {
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+.rounded-2 {
+    border-radius: var(--bs-border-radius)!important;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.bd-example {
+    --bd-example-padding: 1rem;
+    position: relative;
+    padding: var(--bd-example-padding);
+    margin: 0 -1.5rem 1rem;
+    border: solid var(--bs-border-color);
+    border-width: 1px 0;
+}
+
+.bd-example>:last-child, .bd-example>nav:last-child .breadcrumb {
+    margin-bottom: 0;
+}
+/* Fim ativando o Scrollspy */
+
+/********************** Seção do footer ********************/
+.footer-section .footer{
+	height: 100%;
+	padding: .5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+	text-align: center;
+	gap: .5rem;
+	background-color: #000000;
+}
+
+center{
+	background-color: #000000;
+	color: #dadada;
+    padding: 2rem;
+}
+
+.footer-section .footer h3{
+	font-weight: 500;
+	padding: .5rem 0;
+	color: #dadada;
+}
+.footer-section .footer h4{
+	line-height: 1.5;
+	letter-spacing: .1rem;
+	font-weight: 300;
+	color: #dadada;
+}
+/******************** Fim seção do footer *****************/
